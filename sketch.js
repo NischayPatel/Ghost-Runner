@@ -41,7 +41,7 @@ function draw(){
   background("black");
   
   if(gameState==="PLAY"){
-  
+  Sound.play();
   
   if(Tower.y>500){
     Tower.y=300;
